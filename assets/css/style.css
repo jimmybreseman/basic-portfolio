@@ -17,7 +17,7 @@ p {
 }
 
 a {
-    text-decoration: none; 
+    text-decoration: none;
     color: gray;
     padding: .5rem;
 }
@@ -43,7 +43,7 @@ footer {
 .nav-bar {
     width: 100%;
     /* height: 100px; */
-    border-bottom: 2px solid gray ;
+    border-bottom: 2px solid gray;
 }
 
 .nav-bar-contents {
@@ -69,8 +69,8 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color:#666666;
-    border-top: 8px solid#4aaaa5; 
+    background-color: #666666;
+    border-top: 8px solid#4aaaa5;
 }
 
 .footer-headline {
@@ -78,42 +78,128 @@ footer {
     color: #ffffff;
 }
 
-.nav-bar-link-container{
+.nav-bar-link-container {
     position: absolute;
     right: 0;
     top: 50%;
 }
-.about-me{
+
+.about-me {
     max-width: 980px;
-    border: 4px solid  #dddddd;
+    border: 4px solid #dddddd;
     height: 50%;
     margin: 0 auto;
     position: relative;
     display: block;
     transform: translateY(30%);
-
 }
 
-.about-me-contents{
+.about-me-contents {
     padding: 1rem;
     padding-top: 2rem;
 }
+
 .about-me-image {
     padding-top: 0;
     float: left;
 }
-.about-me-underline {
 
-}
-
-.profile-picture{
+.profile-picture {
     height: 200px;
     width: 200px;
     padding-right: 1rem;
+}
+
+.contact {
+    max-width: 980px;
+    border: 4px solid #dddddd;
+    height: 50%;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    transform: translateY(30%);
+}
+
+.contact-contents{
+        padding: 1rem;
+        padding-top: 2rem; 
+        padding-bottom: 20px;
+}
+
+.column-contents{
+    text-align: center;
+    width: 100%;
+}
+input#fname, input#lname, input#message {
+    width: 100%;
+}
+
+input#message{
+    padding-bottom: 150px;
 
 }
 
-.about-me-description {
-
+input[type="submit"] {
+    color: white;
+    background-color: #4aaaa5;
+    height: 2rem;
+    width: 5rem;
 }
 
+.portfolio {
+    max-width: 980px;
+    border: 4px solid #dddddd;
+    height: 50%;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+}
+
+.porfolio-project-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.projects-row-one, .projects-row-two, .projects-row-three {
+    display: flex; 
+    flex-direction: row;
+}
+
+.hangman, .rpg-game, .trivia, .rutgers, .rock-paper {
+    width: 200px; 
+    height: 200px; 
+    margin: 1rem;
+}
+
+.hangman {
+    background-color: blue; 
+}
+
+.rpg-game {
+    background-color: red;
+}
+
+.trivia {
+    background-color: green; 
+}
+
+.rutgers {
+    background-color: yellow;
+}
+
+.rock-paper {
+    background-color: purple;
+}
+
+.teal-bar {
+    position: relative;
+    height: 40px;
+    width: 100%;
+    background-color: #4aaaa5;
+    bottom: -60%;
+}
+
+.teal-bar p {
+    color: white; 
+    text-align: center;
+}
