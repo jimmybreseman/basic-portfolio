@@ -2,6 +2,8 @@
 <html>
 
 <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Contact</title>
 </head>
@@ -14,44 +16,45 @@
             </div>
             <div class="nav-bar-link-container">
                 <a class="nav-bar-links" href="aboutme.html">Home</a>
-                |
+                <a class="spacer">|</a>
                 <a class="nav-bar-links" href="portfolio.html">Portfolio</a>
-                |
+                <a class="spacer">|</a>
                 <a class="nav-bar-links" href="contact.html">Contact</a>
             </div>
         </div>
     </div>
+    <form>
+        <div class="contact">
+            <div class="contact-contents">
+                <h1>Contact</h1>
+                <hr class="about-me-underline">
 
-    <div class="contact">
-        <div class="contact-contents">
-            <h1>Contact</h1>
-            <hr class="about-me-underline">
+                <div class="column">
+                    <div class="column-contents"></div>
+                    <!-- <foyrm action="/action_page.php"> -->
+                    <div class="input-first-name">
+                        <label for="fname">First Name</label>
+                        <br>
+                        <input type="text" id="fname" name="firstname" placeholder="John Doe ">
+                    </div>
+                    <div class="input-email">
+                        <label for="lname">Email</label>
+                        <br>
+                        <input type="text" id="lname" name="lastname" placeholder="example@gmail.com">
+                    </div>
+                    <div class="input-message">
+                        <label for="subject">Message</label>
+                        <br>
+                        <input type="text" id="message" name="message">
 
-            <div class="column">
-                <div class="column-contents"></div>
-                <!-- <form action="/action_page.php"> -->
-                <div class="input-first-name">
-                    <label for="fname">First Name</label>
-                    <br>
-                    <input type="text" id="fname" name="firstname" placeholder="Jimmy Breseman">
-                </div>
-                <div class="input-email">
-                    <label for="lname">Email</label>
-                    <br>
-                    <input type="text" id="lname" name="lastname" placeholder="example@gmail.com">
-                </div>
-                <div class="input-message">
-                    <label for="subject">Message</label>
-                    <br>
-                    <input type="text" id="message" name="message">
-
-                    <input type="submit" value="Submit">
-                    <!-- </form> -->
-                </div>
+                        <input type="submit" class="btn btn-primary" style="margin-top: 20px;"></input>
+                        <!-- </form> -->
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+        </div>
+    </form>
     <div class="footer">
         <p class="footer-headline">Copyright Jimmy Breseman</p>
     </div>
